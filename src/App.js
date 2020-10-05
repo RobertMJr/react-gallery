@@ -18,21 +18,26 @@ class App extends Component {
   constructor() {
     super();
     this.state = {
-      pictures: [],
-      javascript: [],
+      pictures: [], // Array to store the results when using the search feature
+      javascript: [], // Array to store the results when clicking the JavaScript button in the Nav 
       foxes: [],
       cats: [],
       loading: true,
-      searchKey: ''
+      searchKey: '' // Value of what has been searched for
     }
   }
 
+  // Request data for the the tree topics
   componentDidMount(){
     this.performSearch('cats');
     this.performSearch('foxes');
     this.performSearch('javascript');
   }
 
+  /**
+   * Fetch data from the Flickr API using Axios and set the App component state based on the search term 
+   * @param {string} query  - the search term
+   */
   performSearch = (query) => {
     this.setState({loading: true, searchKey: query});
     axios.get(`https://www.flickr.com/services/rest/?method=flickr.photos.search&api_key=${apiKey}&tags=${query}&per_page=24&format=json&nojsoncallback=1`)
