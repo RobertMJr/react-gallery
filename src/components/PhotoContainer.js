@@ -2,10 +2,10 @@ import React, { Component } from 'react';
 import Photo from './Photo';
 import PhotoNotFound from './PhotoNotFound';
 
+
 class PhotoContainer extends Component {
 
     
-
     render() {
         const query = this.props.question;
         const results = this.props.data;
