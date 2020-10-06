@@ -1,15 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&family=Spartan:wght@400;600&display=swap');
+
 body {
   text-align: center;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Manrope', 'Open Sans', sans-serif;
   color: #3f4850;
   background-color: rgb(94, 193, 152);
 }
 
 h2 {
+  font-family: 'Spartan';
   font-size: 2em;
   margin: 52px 0 40px;
   text-transform: capitalize;
-  color: white;
+  color: whitesmoke;
 }
 
 ul {
@@ -29,7 +32,7 @@ a {
 
 .search-form button {
   outline: none;
-  background-color: #438bbd;
+  background-color: #025749;
   border: none;
   padding: 0px 15px;
   border-radius: 0 0.35em 0.35em 0;
@@ -41,7 +44,7 @@ input {
   width: 100%;
   background-color: #edeff0;
   padding: 10px 15px;
-  border: 3px solid #d7dbdf;
+  border: 3px solid rgb(32, 87, 44);
   border-right: none;
   border-radius: 0.35em 0 0 0.35em;
   outline: none;
@@ -54,16 +57,16 @@ input {
 
 .main-nav a {
   display: block;
-  background: #438bbd;
+  background: #025749;
   border-radius: 3px;
   padding: 5px;
-  color: #fff;
+  color: whitesmoke;
 }
 
 .main-nav .active,
 .main-nav a:hover,
 .search-form button:hover {
-  background-color: #275270;
+  background-color: #18b620;
 }
 
 .photo-container ul {
@@ -75,6 +78,9 @@ input {
 }
 
 .photo-container ul li {
+  border: 1.5px solid #025749;
+  border-radius: 16px;
+  box-shadow: 6px 7px 10px 0px black;
   width: 220px;
   height: 165px;
   overflow: hidden;

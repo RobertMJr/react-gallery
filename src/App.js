@@ -6,10 +6,12 @@ import {
 } from 'react-router-dom';
 import './App.css';
 import axios from 'axios';
+import apiKey from './config';
+
+// Components
 import SearchForm from './components/SearchForm';
 import Nav from './components/Nav';
 import PhotoContainer from './components/PhotoContainer';
-import apiKey from './config';
 import NotFound from './components/NotFound';
 
 

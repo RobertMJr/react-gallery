@@ -1,4 +1,18 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Full-Stack-JS-Techdegree-Project-7 (react-gallery)
+ My Seventh Techdegree Project  
+
+A React Gallery App  
+
+Used:  
+- JavaScript and JSX to build out the gallery components.
+- React Router to set up routes for the three default topic pages and for a search page.
+- Axios to fetch data from the Flickr API to then use it to display images in the app.
+- HTML
+- CSS
+
+Project was set up with [Create React App](https://github.com/facebook/create-react-app).  
+
+
 
 ## Available Scripts
 

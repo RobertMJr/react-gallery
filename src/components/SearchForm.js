@@ -3,19 +3,15 @@ import { withRouter } from "react-router-dom";
 
 
 class SearchFrom extends Component {
-    
-    state = {
-        searchText: ''
-    }
-    
-    onSearchChange = e => {
-        this.setState({ searchText: e.target.value});
-    }
 
     handleSubmit = e => {
+        // Prevent page refresh
         e.preventDefault();
+        // Perform serch using the value in the input element 
         this.props.onSearch(this.query.value);
+        // Push the value into the history object to go to the correct page
         this.props.history.push(`/search/${this.query.value}`);
+        // Reset input value
         e.currentTarget.reset();
     }
 
