@@ -9,7 +9,8 @@ A React Gallery App
 3. Get a Flickr API key [here](https://www.flickr.com/services/apps/create/apply/)
 4. In the src folder create a file named `config.js` and update it with your key: 
 ```javascript
-    const key = "you key" ;
+    const key = "Your Flickr API key" ;
+    
     export default key;
 ```
 5. Run `npm start` in your terminal.
