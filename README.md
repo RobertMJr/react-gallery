@@ -7,7 +7,7 @@ A React Gallery App
 1. Download project files from GitHub.
 2. Run `npm install` in your terminal to download and install all the dependencies.
 3. Get a Flickr API key [here](https://www.flickr.com/services/apps/create/apply/)
-4. In the src folder create a file named `config.js` and updated it with your key: 
+4. In the src folder create a file named `config.js` and update it with your key: 
 ```javascript
     const key = "you key" ;
     export default key;
