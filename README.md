@@ -1,9 +1,20 @@
 # Full-Stack-JS-Techdegree-Project-7 (react-gallery)
- My Seventh Techdegree Project  
+## My Seventh Techdegree Project  
 
-A React Gallery App  
+A React Gallery App 
 
-Used:  
+### How To Run:
+1. Download project files from GitHub.
+2. Run `npm install` in your terminal to download and install all the dependencies.
+3. Get a Flickr API key [here](https://www.flickr.com/services/apps/create/apply/)
+4. In the src folder create a file named `config.js` and updated it with your key: 
+```javascript
+    const key = "you key" ;
+    export default key;
+```
+5. Run `npm start` in your terminal.
+
+### Used:  
 - JavaScript and JSX to build out the gallery components.
 - React Router to set up routes for the three default topic pages and for a search page.
 - Axios to fetch data from the Flickr API to then use it to display images in the app.
